@@ -8,20 +8,20 @@ import java.util.Map;
 
 public final class ChessGame {
     
-    private PlayerInterface blackInterface;
-    private PlayerInterface whiteInterface;
+    private PlayerIO blackPlayer;
+    private PlayerIO whitePlayer;
     
     private Chessboard chessboard;
     
-    public ChessGame(PlayerInterface blackInterface, PlayerInterface whiteInterface) {
-        this.blackInterface = blackInterface;
-        this.whiteInterface = whiteInterface;
+    public ChessGame(PlayerIO blackPlayer, PlayerIO whitePlayer) {
+        this.blackPlayer = blackPlayer;
+        this.whitePlayer = whitePlayer;
     }
     
     public static void main(String[] args) {
         
         ChessGame game = new ChessGame(
-                new PlayerInterface(
+                new PlayerIO(
                         new UpdatableVisualizer(){
                             @Override
                             public void updateChessboard(Map<Coordinate2D, Chess> chessboard) {
@@ -51,7 +51,7 @@ public final class ChessGame {
                             }
                         }
                         ),
-                new PlayerInterface(
+                new PlayerIO(
                         new UpdatableVisualizer(){
                             @Override
                             public void updateChessboard(Map<Coordinate2D, Chess> chessboard) {

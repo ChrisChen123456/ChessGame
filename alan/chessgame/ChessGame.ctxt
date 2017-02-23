@@ -1,6 +1,6 @@
 #BlueJ class context
-comment0.params=blackInterface\ whiteInterface
-comment0.target=ChessGame(PlayerInterface,\ PlayerInterface)
+comment0.params=blackPlayer\ whitePlayer
+comment0.target=ChessGame(PlayerIO,\ PlayerIO)
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
 comment10.params=side
