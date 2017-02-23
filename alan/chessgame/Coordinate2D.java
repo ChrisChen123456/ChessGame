@@ -3,10 +3,10 @@ package alan.chessgame;
 /**
  * Feel free to use this class as a key in HashMap
  */
-public class Coordinate2 {
+public class Coordinate2D {
     private final static int hashStart = 0x1234ABCD;
     
-    public Coordinate2(int x, int y) {
+    public Coordinate2D(int x, int y) {
         this.x = x;
         this.y = y;
     }
@@ -16,8 +16,8 @@ public class Coordinate2 {
     
     @Override
     public boolean equals(Object obj) {
-        if(obj instanceof Coordinate2) {
-            Coordinate2 coord = (Coordinate2) obj;
+        if(obj instanceof Coordinate2D) {
+            Coordinate2D coord = (Coordinate2D) obj;
             if(coord.x != x) return false;
             else if(coord.y != y) return false;
             else return true;

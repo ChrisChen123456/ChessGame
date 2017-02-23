@@ -7,9 +7,9 @@ import java.util.Map;
 
 
 public interface UpdatableVisualizer {
-    public void updateChessboard(Map<Coordinate2, Chess> chessboard);
+    public void updateChessboard(Map<Coordinate2D, Chess> chessboard);
     
-    public void updateSelection(Coordinate2 coord);
+    public void updateSelection(Coordinate2D coord);
     
     public void updateSide(Side side);
     

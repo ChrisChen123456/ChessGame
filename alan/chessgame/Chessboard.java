@@ -5,6 +5,6 @@ import java.util.HashMap;
 import alan.chessgame.chess.Chess;
 
 
-public class Chessboard {
-    private Map<Coordinate2, Chess> chessGrid = new HashMap<Coordinate2, Chess>();
+public final class Chessboard {
+    private Map<Coordinate2D, Chess> chessGrid = new HashMap<Coordinate2D, Chess>();
 }

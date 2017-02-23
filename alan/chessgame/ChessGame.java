@@ -24,12 +24,12 @@ public final class ChessGame {
                 new PlayerInterface(
                         new UpdatableVisualizer(){
                             @Override
-                            public void updateChessboard(Map<Coordinate2, Chess> chessboard) {
+                            public void updateChessboard(Map<Coordinate2D, Chess> chessboard) {
                                 // TODO
                             }
                             
                             @Override
-                            public void updateSelection(Coordinate2 coord) {
+                            public void updateSelection(Coordinate2D coord) {
                                 // TODO
                             }
                             
@@ -45,7 +45,7 @@ public final class ChessGame {
                         },
                         new InputJoystick(){
                             @Override
-                            public Coordinate2 inputSelection() {
+                            public Coordinate2D inputSelection() {
                                 // TODO
                                 return null;
                             }
@@ -54,12 +54,12 @@ public final class ChessGame {
                 new PlayerInterface(
                         new UpdatableVisualizer(){
                             @Override
-                            public void updateChessboard(Map<Coordinate2, Chess> chessboard) {
+                            public void updateChessboard(Map<Coordinate2D, Chess> chessboard) {
                                 // TODO
                             }
                             
                             @Override
-                            public void updateSelection(Coordinate2 coord) {
+                            public void updateSelection(Coordinate2D coord) {
                                 // TODO
                             }
                             
@@ -75,7 +75,7 @@ public final class ChessGame {
                         },
                         new InputJoystick(){
                             @Override
-                            public Coordinate2 inputSelection() {
+                            public Coordinate2D inputSelection() {
                                 // TODO
                                 return null;
                             }
