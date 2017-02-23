@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=chessboard
+comment0.target=void\ updateChessboard(java.util.Map)
+comment1.params=coord
+comment1.target=void\ updateSelection(alan.chessgame.Coordinate2)
+comment2.params=side
+comment2.target=void\ updateSide(alan.chessgame.Side)
+comment3.params=side
+comment3.target=void\ updateGameover(alan.chessgame.Side)
+numComments=4

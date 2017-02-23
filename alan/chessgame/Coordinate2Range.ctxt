@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=coord
+comment0.target=boolean\ isInRange(Coordinate2)
+comment1.params=
+comment1.target=java.util.List\ getValidCoords()
+comment1.text=\n\ Methods\ below\ throws\ ArithmeticException\ when\ the\ coordinate\ is\ in\ infinity.\n
+comment2.params=
+comment2.target=Coordinate2\ getLowest()
+comment3.params=
+comment3.target=Coordinate2\ getHighest()
+comment4.params=
+comment4.target=boolean\ isInfinite()
+numComments=5

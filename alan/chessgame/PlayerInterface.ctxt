@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.params=visualizer\ joystick
+comment0.target=PlayerInterface(visualizer.UpdatableVisualizer,\ joystick.InputJoystick)
+numComments=1
